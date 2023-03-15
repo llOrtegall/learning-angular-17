@@ -1,7 +1,20 @@
-export function App() {
+function App() {
+
+  function TodoItem() {
+    return (
+      <li>
+        <span>V</span>
+        <p>llorar con la llorona</p>
+        <span>X</span>
+      </li>
+    )
+  }
+
   return (
     <>
-      <h1>Hello Ivan</h1>
+      <TodoItem />
     </>
   )
 }
+
+export default App
