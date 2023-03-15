@@ -10,9 +10,24 @@ export const App = () => {
     )
   }
 
+  function TodoCounter() {
+    return (
+      <h1> has completado 3 de 5 TODOs</h1>
+    )
+  }
+
   return (
     <>
-      <TodoItem />
+      <TodoCounter />
+      <TodoSearch />
+
+      <TodoList>
+        <TodoItem />
+        <TodoItem />
+        <TodoItem />
+      </TodoList>
+
+      <CreateTodoButton />
     </>
   )
 }
