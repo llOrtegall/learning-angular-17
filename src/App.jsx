@@ -1,4 +1,4 @@
-function App() {
+export const App = () => {
 
   function TodoItem() {
     return (
@@ -16,5 +16,3 @@ function App() {
     </>
   )
 }
-
-export default App
