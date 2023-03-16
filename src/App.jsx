@@ -1,21 +1,9 @@
+import { TodoCounter } from './TodoCounter'
+import { TodoSearch } from './TodoSearch'
+import { TodoList } from './TodoList'
+import { TodoItem } from './TodoItem'
+
 export const App = () => {
-
-  function TodoItem() {
-    return (
-      <li>
-        <span>V</span>
-        <p>llorar con la llorona</p>
-        <span>X</span>
-      </li>
-    )
-  }
-
-  function TodoCounter() {
-    return (
-      <h1> has completado 3 de 5 TODOs</h1>
-    )
-  }
-
   return (
     <>
       <TodoCounter />
@@ -26,8 +14,6 @@ export const App = () => {
         <TodoItem />
         <TodoItem />
       </TodoList>
-
-      <CreateTodoButton />
     </>
   )
 }
