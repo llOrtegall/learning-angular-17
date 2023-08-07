@@ -1,8 +1,8 @@
-export const TodoItem = () => {
+export const TodoItem = (props) => {
   return (
     <li>
-      <span>v</span>
-      <p>llorar con la llorona</p>
+      <span>{props.completed}</span>
+      <p>{props.text}</p>
     </li>
   )
 }
