@@ -2,6 +2,8 @@ import { TodoCounter } from './TodoCounter'
 import { TodoSearch } from './TodoSearch'
 import { TodoList } from './TodoList'
 import { TodoItem } from './TodoItem'
+import { CreateBottomn } from './CreateBottomn'
+import './App.css'
 
 export const App = () => {
   return (
@@ -14,6 +16,8 @@ export const App = () => {
         <TodoItem />
         <TodoItem />
       </TodoList>
+
+      <CreateBottomn />
     </>
   )
 }
