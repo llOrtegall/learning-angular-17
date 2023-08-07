@@ -8,7 +8,7 @@ import './App.css'
 export const App = () => {
   return (
     <>
-      <TodoCounter />
+      <TodoCounter complete={3} total={5} />
       <TodoSearch />
 
       <TodoList>

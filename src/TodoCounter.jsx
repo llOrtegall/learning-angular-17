@@ -1,7 +1,7 @@
-export const TodoCounter = () => {
+export const TodoCounter = ({ total, complete }) => {
   return (
     <h1>
-      Has completado 3 de 5 tareas
+      Has completado {complete} de {total} tareas
     </h1>
   )
 }
