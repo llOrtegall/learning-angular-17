@@ -17,7 +17,6 @@ export const App = () => {
       text: 'Cortar Ajo', completed: true
     }
   ]
-
   return (
     <main className='App'>
       <TodoCounter complete={3} total={5} />
