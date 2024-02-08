@@ -1,11 +1,12 @@
+import { ProductsService } from './api/products.service';
 import { Component, inject } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { ProductsService } from './api/products.service';
+import { RouterLink, RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule],
+  imports: [CommonModule, RouterOutlet, RouterLink],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
